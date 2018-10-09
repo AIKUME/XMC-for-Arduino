@@ -7,7 +7,7 @@ LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 
 void setup()
 {
-  lcd.begin(16,2); // sixteen characters across - 2 linesC:\Users\Pedregos\AppData\Local\Arduino15\packages\Infineon\hardware\arm\1.1.1\cores\xmc_lib\LIBS\types.h
+  lcd.begin(16,2); // sixteen characters across - 2 lines
   lcd.backlight();
   // first character - 1st line
   lcd.setCursor(0,0);
